@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #fcf7f8;
+}
+
+h1{
+    color: #800080;
+    padding: 5px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    float: left;
+}
+
+.div-1{
+    height: 200px;
+    width: 400px;
+    padding: 20px;
+    background-color: #fcf7f8;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    position: relative;
+    top: 100px;
+}
+#tableContainer{
+    background-color: #fcf7f8;
+    height: 400px;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+
+button{
+    display: inline-block;
+    background-color: #800080;
+    color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-right: 0px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #fcf7f8;
+    color: #800080;
+}
+
+.sec{
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #800080;
+}
+
+  
+.links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.link a{
+    padding: 0.5rem;
+    color : #800080;
+}
+  
+.link a:hover {
+    color: #cb6dcb ;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+  
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+
+th {
+    background-color: #800080;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
